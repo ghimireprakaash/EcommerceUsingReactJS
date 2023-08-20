@@ -1,0 +1,59 @@
+$primary: #be2596;
+$secondary: #dbdadb;
+
+.top-header{
+    width: 100%;
+    height: 50px;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+
+
+    .first-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .logo{
+            margin-left: 100px;
+            display: flex;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .input-group{
+            width: 50%;
+            margin: auto;
+            margin-top: 8px;
+        }
+
+        ul{
+            display: flex;
+            margin-top: 7px;
+            margin-right: 20px;
+        }
+
+        ul li{
+            list-style: none;
+            margin-left: 15px;
+        }
+    }
+
+    .second-header{
+        width: 100%;
+
+        ul{
+            display: flex;
+            // justify-content: space-around;
+            list-style: none;
+            flex-direction: row;
+            padding: 10px;
+            background: $secondary;
+
+            li .nav-items{
+                text-decoration: none;
+                margin-right: 20px;
+            }
+        }
+    }
+}

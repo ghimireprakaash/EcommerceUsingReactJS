@@ -1,15 +1,13 @@
-import FooterComponents from "./components/layouts/FooterComponents"
-import HeaderComponents from "./components/layouts/HeaderComponents"
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/scss/frontend.scss";
+import RouterComponents from "./components/routes/RouterComponents";
 
 function App() {
-
   return (
     <>
-      <HeaderComponents/>
-      <h1>Body Content</h1>
-      <FooterComponents/>
+      <RouterComponents />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
