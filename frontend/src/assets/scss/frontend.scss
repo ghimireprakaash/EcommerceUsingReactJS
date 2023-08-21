@@ -1,9 +1,9 @@
 $primary: #be2596;
-$secondary: #dbdadb;
+$secondary: #eeedee;
 
 .top-header{
     width: 100%;
-    height: 50px;
+    height: 51px;
     background-color: $primary;
     display: flex;
     flex-direction: column;
@@ -56,4 +56,8 @@ $secondary: #dbdadb;
             }
         }
     }
+}
+
+.banner-items{
+    margin-top: 41px;
 }
