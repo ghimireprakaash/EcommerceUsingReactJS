@@ -19,7 +19,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
+<<<<<<< HEAD
     "reactstrap": "^9.2.0",
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
     "sass": "^1.66.0"
   },
   "devDependencies": {

@@ -32,9 +32,12 @@ dependencies:
   react-router-dom:
     specifier: ^6.15.0
     version: 6.15.0(react-dom@18.2.0)(react@18.2.0)
+<<<<<<< HEAD
   reactstrap:
     specifier: ^9.2.0
     version: 9.2.0(react-dom@18.2.0)(react@18.2.0)
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   sass:
     specifier: ^1.66.0
     version: 1.66.0
@@ -1249,10 +1252,13 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
+<<<<<<< HEAD
   /classnames@2.3.2:
     resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
     dev: false
 
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   /clsx@2.0.0:
     resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
     engines: {node: '>=6'}
@@ -2000,10 +2006,13 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+<<<<<<< HEAD
   /react-fast-compare@3.2.2:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
@@ -2012,6 +2021,7 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: false
 
+<<<<<<< HEAD
   /react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==}
     peerDependencies:
@@ -2026,6 +2036,8 @@ packages:
       warning: 4.0.3
     dev: false
 
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   /react-refresh@0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
@@ -2075,6 +2087,7 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
+<<<<<<< HEAD
   /reactstrap@9.2.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-WWLTEG00qYav0E55PorWHReYTkz5IqkVmQNy0h6U81yqjSp9fOLFGV5pYSVeAUz+yRhU/RTE0oAWy22zr6sOIw==}
     peerDependencies:
@@ -2091,6 +2104,8 @@ packages:
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   /readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
@@ -2322,12 +2337,15 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+<<<<<<< HEAD
   /warning@4.0.3:
     resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
 
+=======
+>>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
