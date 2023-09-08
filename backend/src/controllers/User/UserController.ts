@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import User from "../models/User";
-import JsonDataResponse from "../lib/JsonDataResponse";
+import User from "../../models/User";
+import JsonDataResponse from "../../lib/JsonDataResponse";
 
 
 export default class UserController{
@@ -11,7 +11,7 @@ export default class UserController{
 
     async create(req: Request, res: Response){
         try {
-            let user = new User(req.body);
+            let user = new User({...req.body});
             await user.save();
 
             res.json(JsonDataResponse(user, 200, 'User Created!!!'));
