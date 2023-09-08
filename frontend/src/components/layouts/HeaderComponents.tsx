@@ -1,34 +1,14 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-import { Modal, ModalHeader } from "reactstrap";
-import { Link } from "react-router-dom";
-import { LocalMall, PersonRounded, ShoppingCart } from "@mui/icons-material";
-import { Button } from "@mui/material";
-import Login from "../pages/auth/Login";
-=======
 import React from "react";
 import { Link } from "react-router-dom";
 import { LocalMall, PersonRounded, ShoppingCart } from "@mui/icons-material";
->>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
+import Login from "../pages/auth/Login";
+import { Button } from "reactstrap";
 // import LocalMallIcon from '@mui/icons-material/LocalMall';
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function HeaderComponents() {
-<<<<<<< HEAD
-  // const [modal, setModal] = useState(false);
-
   return (
     <React.Fragment>
-      {/* <Modal size="lg" isOpen={modal} toggle={() => setModal(!modal)}>
-        <ModalHeader toggle={() => setModal(!modal)}>
-          <Login />
-        </ModalHeader>
-      </Modal> */}
-
-=======
-  return (
-    <React.Fragment>
->>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
       <div className="top-header">
         <div className="first-header">
           <Link to="/" className="logo">
@@ -49,18 +29,15 @@ function HeaderComponents() {
           </div>
           <ul>
             <li>
-<<<<<<< HEAD
               <Button onClick={() => Login}>
                 <PersonRounded sx={{ fontSize: 30, color: "white" }} />
               </Button>
+              {/* <Link to="" onClick={() => Login}>
+                <PersonRounded sx={{ fontSize: 30, color: "white" }} />
+              </Link> */}
               {/* <Link to="/login">
                 <PersonRounded sx={{ fontSize: 30, color: "white" }} />
               </Link> */}
-=======
-              <Link to="/login">
-                <PersonRounded sx={{ fontSize: 30, color: "white" }} />
-              </Link>
->>>>>>> 89969b6dc286dc80e7d449490cabb1fd5a609acd
             </li>
             <li>
               <Link to="">

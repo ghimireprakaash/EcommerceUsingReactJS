@@ -3,7 +3,7 @@ $secondary: #eeedee;
 
 .top-header{
     width: 100%;
-    height: 51px;
+    height: 50px;
     background-color: $primary;
     display: flex;
     flex-direction: column;
@@ -31,11 +31,11 @@ $secondary: #eeedee;
             display: flex;
             margin-top: 7px;
             margin-right: 20px;
-        }
 
-        ul li{
-            list-style: none;
-            margin-left: 15px;
+            li{
+                list-style: none;
+                margin-left: 15px;
+            }
         }
     }
 
@@ -47,12 +47,12 @@ $secondary: #eeedee;
             // justify-content: space-around;
             list-style: none;
             flex-direction: row;
-            padding: 10px;
+            padding: 0px;
             background: $secondary;
 
             li .nav-items{
                 text-decoration: none;
-                margin-right: 20px;
+                margin-left: 20px;
             }
         }
     }
