@@ -22,4 +22,16 @@ export default class CategoryController{
             console.log(error);
         }
     }
+
+    async update(req: Request, res: Response){
+
+    }
+
+    async delete(req: Request, res: Response){
+
+    }
+
+    async deleteCategoryWithId(req: Request, res: Response){
+
+    }
 } 
