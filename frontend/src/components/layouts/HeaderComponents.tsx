@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { LocalMall, PersonRounded, ShoppingCart } from "@mui/icons-material";
-import Login from "../pages/auth/Login";
-import { Button } from "reactstrap";
+import SearchBarComponents from "./header/SearchBarComponents";
+// import Login from "../pages/auth/Login";
+// import { Button } from "reactstrap";
+// import PopUpLoginComponent from "../pages/auth/PopUpLoginComponent";
 // import LocalMallIcon from '@mui/icons-material/LocalMall';
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
@@ -15,37 +17,28 @@ function HeaderComponents() {
             <LocalMall sx={{ fontSize: 40, color: "white" }} />
             <h1>Store</h1>
           </Link>
-          <div className="input-group">
-            <input
-              type="search"
-              className="form-control"
-              placeholder="Search"
-              aria-label="Search"
-              aria-describedby="search-addon"
-            />
-            <button type="button" className="btn btn-outline-primary">
-              search
-            </button>
-          </div>
+
+          <SearchBarComponents />
+
           <ul>
             <li>
-              <Button onClick={() => Login}>
+              {/* <Button
+                style={{ background: "transparent", border: "none" }}
+                onClick={PopUpLoginComponent}
+              >
                 <PersonRounded sx={{ fontSize: 30, color: "white" }} />
-              </Button>
+              </Button> */}
               {/* <Link to="" onClick={() => Login}>
                 <PersonRounded sx={{ fontSize: 30, color: "white" }} />
               </Link> */}
-              {/* <Link to="/login">
+              <Link to="/login">
                 <PersonRounded sx={{ fontSize: 30, color: "white" }} />
-              </Link> */}
+              </Link>
             </li>
             <li>
               <Link to="">
                 <ShoppingCart sx={{ fontSize: 30, color: "white" }} />
               </Link>
-            </li>
-            <li>
-              <Link to=""></Link>
             </li>
           </ul>
         </div>

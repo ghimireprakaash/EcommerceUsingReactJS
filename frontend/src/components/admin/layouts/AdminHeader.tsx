@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import adminImage from "../../../assets/images/admin-96.png";
 
 export default function AdminHeader() {
   return (
@@ -8,10 +10,9 @@ export default function AdminHeader() {
         className="header fixed-top d-flex align-items-center"
       >
         <div className="d-flex align-items-center justify-content-between">
-          <a href="index.html" className="logo d-flex align-items-center">
-            <img src="" alt="" />
+          <Link to="/dashboard" className="logo d-flex align-items-center">
             <span className="d-none d-lg-block">Admin</span>
-          </a>
+          </Link>
           <i className="bi bi-list toggle-sidebar-btn" />
         </div>
 
@@ -37,80 +38,71 @@ export default function AdminHeader() {
         <nav className="header-nav ms-auto">
           <ul className="d-flex align-items-center">
             <li className="nav-item d-block d-lg-none">
-              <a className="nav-link nav-icon search-bar-toggle " href="#">
+              <Link className="nav-link nav-icon search-bar-toggle " to="">
                 <i className="bi bi-search" />
-              </a>
+              </Link>
             </li>
             {/* End Search Icon*/}
 
             <li className="nav-item dropdown pe-3">
-              <a
+              <Link
                 className="nav-link nav-profile d-flex align-items-center pe-0"
-                href="#"
+                to=""
                 data-bs-toggle="dropdown"
               >
                 <img
-                  src="assets/img/profile-img.jpg"
+                  src={adminImage}
                   alt="Profile"
                   className="rounded-circle"
                 />
                 <span className="d-none d-md-block dropdown-toggle ps-2">
                   Admin
                 </span>
-              </a>
+              </Link>
 
               <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                 <li className="dropdown-header">
-                  <h6>Kevin Anderson</h6>
-                  <span>Web Designer</span>
+                  <h6>Admin</h6>
+                  <span>React Developer</span>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a
+                  <Link
+                    to=""
                     className="dropdown-item d-flex align-items-center"
-                    href="users-profile.html"
                   >
                     <i className="bi bi-person" />
                     <span>My Profile</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a
+                  <Link
+                    to=""
                     className="dropdown-item d-flex align-items-center"
-                    href="users-profile.html"
                   >
                     <i className="bi bi-gear" />
                     <span>Account Settings</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a
-                    className="dropdown-item d-flex align-items-center"
-                    href="pages-faq.html"
-                  >
-                    <i className="bi bi-question-circle" />
-                    <span>Need Help?</span>
-                  </a>
-                </li>
-                <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="dropdown-item d-flex align-items-center"
-                    href="#"
+                    to=""
                   >
                     <i className="bi bi-box-arrow-right" />
                     <span>Sign Out</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>

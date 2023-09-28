@@ -2,6 +2,7 @@ import React from "react";
 import AdminHeader from "../layouts/AdminHeader";
 import AdminFooter from "../layouts/AdminFooter";
 import AdminAside from "../layouts/AdminAside";
+import MyEditor from "../editor/Editor";
 import { Link } from "react-router-dom";
 
 export default function CategoryComponent() {
@@ -23,7 +24,9 @@ export default function CategoryComponent() {
           </nav>
         </div>
         <section className="section dashboard">
-          <div className="row"></div>
+          <div>
+            <MyEditor />
+          </div>
         </section>
       </main>
 

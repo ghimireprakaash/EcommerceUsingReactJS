@@ -1,63 +1,112 @@
 $primary: #be2596;
-$secondary: #eeedee;
+// $secondary: #dfdede;
+$secondary: #c7c5c5;
+$text-color: #be2596;;
 
 .top-header{
     width: 100%;
-    height: 50px;
-    background-color: $primary;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 
 
     .first-header{
         width: 100%;
+        height: fit-content;
+        background-color: $primary;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        
 
         .logo{
-            margin-left: 100px;
+            width: 5%;
             display: flex;
             text-decoration: none;
             color: #ffffff;
+            margin: auto;
+            margin-left: 50px;
         }
 
-        .input-group{
-            width: 50%;
+
+        .search-wrapper{
+            width: 40%;
             margin: auto;
-            margin-top: 8px;
+            background-color: #fff;
+            box-shadow: 0px 0px 8px #ddd;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border-radius: 10px;
+            min-width: 200px;
+
+            i{
+                margin-left: 10px;
+            }
+
+            input{
+                width: 100%;
+                border: none;
+                padding: 2px;
+                margin-left: 7px;
+            }
+
+            .input-field:focus{
+                outline: none;
+            }
         }
 
         ul{
+            width: 5%;
             display: flex;
-            margin-top: 7px;
-            margin-right: 20px;
+            margin: auto;
 
             li{
                 list-style: none;
-                margin-left: 15px;
+                margin: 0px 10px;
             }
         }
     }
 
     .second-header{
         width: 100%;
-
+        height: fit-content;
+        background: $secondary;
+    
         ul{
             display: flex;
-            // justify-content: space-around;
             list-style: none;
-            flex-direction: row;
-            padding: 0px;
-            background: $secondary;
-
+            padding: 5px 0;
+            margin: auto;
+    
             li .nav-items{
                 text-decoration: none;
                 margin-left: 20px;
+                font-weight: 600;
+            }
+
+            li .nav-items:hover {
+                color: $text-color;
             }
         }
     }
 }
 
-.banner-items{
-    margin-top: 41px;
+
+.img-fluid{
+    border-radius: "1rem 0 0 1rem";
+    background-color: rgb(148, 148, 148);
+    height: 100%;
+    display: flex;
+
+
+    img{
+        margin: auto;
+    }
+}
+
+
+.form-outline {
+    p{
+        color: red;
+    }
 }

@@ -15,7 +15,10 @@ function RouterComponents() {
         <Route path="/login" element={<LoginComponents />} />
         <Route path="/register" element={<RegisterComponent />} />
         <Route path="/dashboard" element={<DashboardComponent />} />
-        <Route path="/manage-category" element={<CategoryComponent />} />
+        <Route
+          path="/dashboard/manage-category"
+          element={<CategoryComponent />}
+        />
 
         <Route path="*" element={<PageNotFound />} />
       </Routes>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AdminAside() {
   return (
@@ -6,13 +7,37 @@ export default function AdminAside() {
       <aside id="sidebar" className="sidebar">
         <ul className="sidebar-nav" id="sidebar-nav">
           <li className="nav-item">
-            <a className="nav-link " href="index.html">
+            <Link to="/dashboard" className="nav-link ">
               <i className="bi bi-grid" />
               <span>Dashboard</span>
-            </a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/dashboard/manage-category" className="nav-link ">
+              <i className="bi bi-grid" />
+              <span>Manage Category</span>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/dashboard/manage-products" className="nav-link ">
+              <i className="bi bi-grid" />
+              <span>Manage Products</span>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="*" className="nav-link ">
+              <i className="bi bi-grid" />
+              <span>#</span>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="*" className="nav-link ">
+              <i className="bi bi-grid" />
+              <span>#</span>
+            </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link collapsed"
               data-bs-target="#components-nav"
@@ -113,7 +138,7 @@ export default function AdminAside() {
                 </a>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </aside>
     </React.Fragment>
