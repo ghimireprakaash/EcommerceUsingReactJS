@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import adminImage from "../../../assets/images/admin-96.png";
 
 export default function AdminHeader() {
+  const [state, setState] = useState(false);
+
   return (
     <React.Fragment>
       <header
@@ -13,7 +15,10 @@ export default function AdminHeader() {
           <Link to="/dashboard" className="logo d-flex align-items-center">
             <span className="d-none d-lg-block">Admin</span>
           </Link>
-          <i className="bi bi-list toggle-sidebar-btn" />
+          <i
+            className="bi bi-list toggle-sidebar-btn"
+            onClick={() => setState(true)}
+          />
         </div>
 
         <div className="search-bar">

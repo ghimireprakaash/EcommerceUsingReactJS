@@ -4,6 +4,7 @@ import AdminFooter from "../layouts/AdminFooter";
 import AdminAside from "../layouts/AdminAside";
 import MyEditor from "../editor/Editor";
 import { Link } from "react-router-dom";
+import DashboardForm from "../layouts/DashboardForm";
 
 export default function CategoryComponent() {
   return (
@@ -23,7 +24,11 @@ export default function CategoryComponent() {
             </ol>
           </nav>
         </div>
+
         <section className="section dashboard">
+          <div className="form">
+            <DashboardForm />
+          </div>
           <div>
             <MyEditor />
           </div>

@@ -8,12 +8,9 @@ export default function Dashboard() {
   return (
     <React.Fragment>
       <AdminHeader />
-
-      {/* ======= Sidebar ======= */}
       <AdminAside />
-      {/* End Sidebar*/}
 
-      <main id="main" className="main">
+      <main id="main" className="main vh-100">
         <div className="pagetitle">
           <h1>Dashboard</h1>
           <nav>
@@ -29,9 +26,7 @@ export default function Dashboard() {
           <div className="row"></div>
         </section>
       </main>
-      {/* End #main */}
 
-      {/* ======= Footer ======= */}
       <AdminFooter />
     </React.Fragment>
   );

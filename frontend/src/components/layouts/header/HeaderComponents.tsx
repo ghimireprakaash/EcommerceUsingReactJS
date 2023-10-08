@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { LocalMall, PersonRounded, ShoppingCart } from "@mui/icons-material";
-import SearchBarComponents from "./header/SearchBarComponents";
+import SearchBarComponents from "./SearchBarComponents";
 // import Login from "../pages/auth/Login";
 // import { Button } from "reactstrap";
 // import PopUpLoginComponent from "../pages/auth/PopUpLoginComponent";

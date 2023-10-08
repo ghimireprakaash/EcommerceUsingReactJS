@@ -1,7 +1,11 @@
 $primary: #be2596;
 // $secondary: #dfdede;
-$secondary: #c7c5c5;
-$text-color: #be2596;;
+$secondary: #dfdfdf;
+$text-color: #be2596;
+
+#root{
+    background-color: $secondary;
+}
 
 .top-header{
     width: 100%;
@@ -91,22 +95,23 @@ $text-color: #be2596;;
     }
 }
 
+.auth-form{
+    background-color: #9A616D;
 
-.img-fluid{
-    border-radius: "1rem 0 0 1rem";
-    background-color: rgb(148, 148, 148);
-    height: 100%;
-    display: flex;
+    .img-fluid{
+        border-radius: "1rem 0 0 1rem";
+        background-color: rgb(148, 148, 148);
+        height: 100%;
+        display: flex;
 
 
-    img{
-        margin: auto;
+        img{
+            margin: auto;
+        }
     }
-}
 
 
-.form-outline {
-    p{
+    .form-outline p{
         color: red;
     }
 }

@@ -16,22 +16,22 @@ function FooterComponents() {
             {/* Right */}
             <div>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-facebook-f" />
+                <i className="fa fa-facebook-f" />
               </Link>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-twitter" />
+                <i className="fa fa-twitter" />
               </Link>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-google" />
+                <i className="fa fa-google" />
               </Link>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-instagram" />
+                <i className="fa fa-instagram" />
               </Link>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-linkedin" />
+                <i className="fa fa-linkedin" />
               </Link>
               <Link to="" className="me-4 text-reset">
-                <i className="fab fa-github" />
+                <i className="fa fa-github" />
               </Link>
             </div>
             {/* Right */}
@@ -46,7 +46,7 @@ function FooterComponents() {
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   {/* Content */}
                   <h6 className="text-uppercase fw-bold mb-4">
-                    <i className="fas fa-gem me-3" />
+                    {/* <i className="fas fa-gem me-3" /> */}
                     E-commerce Website
                   </h6>
                   <p>
@@ -62,22 +62,17 @@ function FooterComponents() {
                   <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                   <p>
                     <Link to="" className="text-reset">
-                      Angular
+                      Laptops
                     </Link>
                   </p>
                   <p>
                     <Link to="" className="text-reset">
-                      React
+                      Smartphones
                     </Link>
                   </p>
                   <p>
                     <Link to="" className="text-reset">
-                      Vue
-                    </Link>
-                  </p>
-                  <p>
-                    <Link to="" className="text-reset">
-                      Laravel
+                      PC Components
                     </Link>
                   </p>
                 </div>
@@ -113,17 +108,14 @@ function FooterComponents() {
                   {/* Links */}
                   <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                   <p>
-                    <i className="fas fa-home me-3" /> New York, NY 10012, US
+                    <i className="fa fa-home me-3" /> Kathmandu, Nepal
                   </p>
                   <p>
-                    <i className="fas fa-envelope me-3" />
+                    <i className="fa fa-envelope me-3" />
                     info@example.com
                   </p>
                   <p>
-                    <i className="fas fa-phone me-3" /> + 01 234 567 88
-                  </p>
-                  <p>
-                    <i className="fas fa-print me-3" /> + 01 234 567 89
+                    <i className="fa fa-phone me-3" /> + 977 ##########
                   </p>
                 </div>
                 {/* Grid column */}

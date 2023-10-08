@@ -19,7 +19,7 @@ export default function LoginComponents() {
   };
 
   return (
-    <section className="vh-100" style={{ backgroundColor: "#9A616D" }}>
+    <section className="auth-form vh-100">
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
