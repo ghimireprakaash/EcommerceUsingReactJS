@@ -3,115 +3,126 @@ $primary: #be2596;
 $secondary: #dfdfdf;
 $text-color: #be2596;
 
-#root{
-    background-color: $secondary;
+#root {
+  background-color: $secondary;
 }
 
-.top-header{
+.top-header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  .first-header {
     width: 100%;
     height: fit-content;
+    background-color: $primary;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px 0;
 
+    .header-logo-container {
+      width: fit-content;
+      // margin: auto;
+      margin-left: 18px;
 
-    .first-header{
-        width: 100%;
+      .header-logo {
+        width: fit-content;
         height: fit-content;
-        background-color: $primary;
         display: flex;
-        justify-content: space-between;
-        
 
-        .logo{
-            width: 5%;
-            display: flex;
-            text-decoration: none;
-            color: #ffffff;
-            margin: auto;
-            margin-left: 50px;
+        h1 {
+          color: #ffffff;
+          margin: auto;
         }
-
-
-        .search-wrapper{
-            width: 40%;
-            margin: auto;
-            background-color: #fff;
-            box-shadow: 0px 0px 8px #ddd;
-            display: flex;
-            align-items: center;
-            padding: 5px;
-            border-radius: 10px;
-            min-width: 200px;
-
-            i{
-                margin-left: 10px;
-            }
-
-            input{
-                width: 100%;
-                border: none;
-                padding: 2px;
-                margin-left: 7px;
-            }
-
-            .input-field:focus{
-                outline: none;
-            }
-        }
-
-        ul{
-            width: 5%;
-            display: flex;
-            margin: auto;
-
-            li{
-                list-style: none;
-                margin: 0px 10px;
-            }
-        }
+      }
     }
 
-    .second-header{
+    .search-wrapper {
+      width: 30%;
+      margin: auto;
+      // margin-left: 2px;
+      background-color: #fff;
+      box-shadow: 0px 0px 8px #ddd;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 10px;
+      min-width: 200px;
+
+      i {
+        margin-left: 10px;
+      }
+
+      input {
         width: 100%;
-        height: fit-content;
-        background: $secondary;
-    
-        ul{
-            display: flex;
-            list-style: none;
-            padding: 5px 0;
-            margin: auto;
-    
-            li .nav-items{
-                text-decoration: none;
-                margin-left: 20px;
-                font-weight: 600;
-            }
+        border: none;
+        padding: 2px;
+        margin-left: 7px;
+      }
 
-            li .nav-items:hover {
-                color: $text-color;
-            }
-        }
+      .input-field:focus {
+        outline: none;
+      }
     }
+
+    .top-nav-links {
+      width: fit-content;
+      display: flex;
+
+      ul {
+        width: fit-content;
+        display: flex;
+        padding: 0;
+        margin: auto;
+
+        li {
+          list-style: none;
+          margin: 0px 7px;
+        }
+      }
+    }
+  }
+
+  .second-header {
+    width: 100%;
+    height: fit-content;
+    background: $secondary;
+
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 5px 0;
+      margin: auto;
+
+      li .nav-items {
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 600;
+      }
+
+      li .nav-items:hover {
+        color: $text-color;
+      }
+    }
+  }
 }
 
-.auth-form{
-    background-color: #9A616D;
+.auth-form {
+  background-color: #9a616d;
 
-    .img-fluid{
-        border-radius: "1rem 0 0 1rem";
-        background-color: rgb(148, 148, 148);
-        height: 100%;
-        display: flex;
+  .img-fluid {
+    border-radius: "1rem 0 0 1rem";
+    background-color: rgb(148, 148, 148);
+    height: 100%;
+    display: flex;
 
-
-        img{
-            margin: auto;
-        }
+    img {
+      margin: auto;
     }
+  }
 
-
-    .form-outline p{
-        color: red;
-    }
+  .form-outline p {
+    color: red;
+  }
 }
